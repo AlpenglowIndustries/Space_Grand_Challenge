@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Satellite_PCB")(type "KiCad")(uri "${ALPENGLOWMOD}/Satellite_PCB/Satellite.pretty")(options "")(descr ""))
+)
