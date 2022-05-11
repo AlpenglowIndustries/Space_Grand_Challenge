@@ -2,14 +2,15 @@
 
   (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
 
-  (paper "A4")
+  (paper "A")
 
   (title_block
-    (title "Satellite")
+    (title "Space Grand Challenge")
     (date "2022-04-20")
     (rev "A")
     (comment 2 "SAT-0100")
     (comment 3 "WRIGHT")
+    (comment 4 "for the Aerospace Corp and California Cybersecurity Institute")
   )
 
   (lib_symbols
@@ -1346,6 +1347,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid be301ef2-aa31-41ff-b3f7-d488a0aa2742)
   )
+  (text "for The Aerospace Corp and California Cybersecurity Institute"
+    (at 190.5 189.23 0)
+    (effects (font (size 1.27 1.27) italic) (justify left bottom))
+    (uuid d86a617d-114d-4fd7-a3c8-43b5be3b3585)
+  )
   (text "SOLID" (at 120.65 142.24 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid df33a993-b26b-49c3-a7da-11643bdbf3d8)
@@ -1737,10 +1743,15 @@
   )
 
   (symbol (lib_id "Alpenglow:Alpenglow_SMT_SlideSwitch") (at 124.46 152.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 610006b1-4695-436d-b6ae-8fc01b7722bf)
+<<<<<<< HEAD
     (property "Reference" "SW1" (id 0) (at 127 142.3693 0))
     (property "Value" "Alpenglow_SMT_SlideSwitch" (id 1) (at 127 142.3694 0)
+=======
+    (property "Reference" "SW1" (id 0) (at 121.92 149.86 0))
+    (property "Value" "" (id 1) (at 127 142.3694 0)
+>>>>>>> dd21d0c986e171bd7124f7335f5dbdb15f2b43f1
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Alpenglow:SW_SPDT_SMT_RTA" (id 2) (at 124.46 152.4 0)
@@ -1887,10 +1898,10 @@
   (symbol (lib_id "Device:Battery_Cell") (at 45.72 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7b39b8dc-fe65-4f2f-a702-2729cc40a76d)
-    (property "Reference" "BT1" (id 0) (at 48.641 174.8595 0)
+    (property "Reference" "BT1" (id 0) (at 48.641 174.9333 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Battery_Cell" (id 1) (at 48.641 177.6346 0)
+    (property "Value" "" (id 1) (at 48.641 177.4702 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Alpenglow:BatteryHolder_CR2032_SMT" (id 2) (at 45.72 176.276 90)
@@ -1904,10 +1915,15 @@
   )
 
   (symbol (lib_name "Alpenglow_SMT_SlideSwitch_1") (lib_id "Alpenglow:Alpenglow_SMT_SlideSwitch") (at 73.66 167.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 7c9bf6ec-dbd4-41a1-83d5-08b119d0d217)
+<<<<<<< HEAD
     (property "Reference" "SW2" (id 0) (at 76.2 157.6093 0))
     (property "Value" "Alpenglow_SMT_SlideSwitch" (id 1) (at 76.2 157.6094 0)
+=======
+    (property "Reference" "SW2" (id 0) (at 80.01 165.1 0))
+    (property "Value" "" (id 1) (at 76.2 157.6094 0)
+>>>>>>> dd21d0c986e171bd7124f7335f5dbdb15f2b43f1
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Alpenglow:SW_SPDT_SMT_RTA" (id 2) (at 73.66 167.64 0)
@@ -2426,7 +2442,7 @@
       (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
     )
     (path "/7b39b8dc-fe65-4f2f-a702-2729cc40a76d"
-      (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "Alpenglow:BatteryHolder_CR2032_SMT")
+      (reference "BT1") (unit 1) (value "CR2032") (footprint "Alpenglow:BatteryHolder_CR2032_SMT")
     )
     (path "/6728366e-7c51-410e-9ce3-c2a2b2378084"
       (reference "C1") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
