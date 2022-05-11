@@ -1745,13 +1745,8 @@
   (symbol (lib_id "Alpenglow:Alpenglow_SMT_SlideSwitch") (at 124.46 152.4 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 610006b1-4695-436d-b6ae-8fc01b7722bf)
-<<<<<<< HEAD
-    (property "Reference" "SW1" (id 0) (at 127 142.3693 0))
-    (property "Value" "Alpenglow_SMT_SlideSwitch" (id 1) (at 127 142.3694 0)
-=======
     (property "Reference" "SW1" (id 0) (at 121.92 149.86 0))
-    (property "Value" "" (id 1) (at 127 142.3694 0)
->>>>>>> dd21d0c986e171bd7124f7335f5dbdb15f2b43f1
+    (property "Value" "Alpenglow_SMT_SlideSwitch" (id 1) (at 127 142.3694 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Alpenglow:SW_SPDT_SMT_RTA" (id 2) (at 124.46 152.4 0)
@@ -1901,7 +1896,7 @@
     (property "Reference" "BT1" (id 0) (at 48.641 174.9333 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 48.641 177.4702 0)
+    (property "Value" "CR2032" (id 1) (at 48.641 177.4702 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Alpenglow:BatteryHolder_CR2032_SMT" (id 2) (at 45.72 176.276 90)
@@ -1917,13 +1912,8 @@
   (symbol (lib_name "Alpenglow_SMT_SlideSwitch_1") (lib_id "Alpenglow:Alpenglow_SMT_SlideSwitch") (at 73.66 167.64 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7c9bf6ec-dbd4-41a1-83d5-08b119d0d217)
-<<<<<<< HEAD
-    (property "Reference" "SW2" (id 0) (at 76.2 157.6093 0))
+    (property "Reference" "SW2" (id 0) (at 71.12 165.1 0))
     (property "Value" "Alpenglow_SMT_SlideSwitch" (id 1) (at 76.2 157.6094 0)
-=======
-    (property "Reference" "SW2" (id 0) (at 80.01 165.1 0))
-    (property "Value" "" (id 1) (at 76.2 157.6094 0)
->>>>>>> dd21d0c986e171bd7124f7335f5dbdb15f2b43f1
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Alpenglow:SW_SPDT_SMT_RTA" (id 2) (at 73.66 167.64 0)
