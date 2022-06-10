@@ -1749,7 +1749,7 @@
     (property "Value" "Alpenglow_SMT_SlideSwitch" (id 1) (at 127 142.3694 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Alpenglow:SW_SPDT_SMT_RTA" (id 2) (at 124.46 152.4 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12" (id 2) (at 124.46 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 124.46 152.4 0)
@@ -1916,7 +1916,7 @@
     (property "Value" "Alpenglow_SMT_SlideSwitch" (id 1) (at 76.2 157.6094 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Alpenglow:SW_SPDT_SMT_RTA" (id 2) (at 73.66 167.64 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12" (id 2) (at 73.66 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 73.66 167.64 0)
@@ -2537,10 +2537,10 @@
       (reference "R17") (unit 1) (value "47k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/610006b1-4695-436d-b6ae-8fc01b7722bf"
-      (reference "SW1") (unit 1) (value "Alpenglow_SMT_SlideSwitch") (footprint "Alpenglow:SW_SPDT_SMT_RTA")
+      (reference "SW1") (unit 1) (value "Alpenglow_SMT_SlideSwitch") (footprint "Button_Switch_SMD:SW_SPDT_PCM12")
     )
     (path "/7c9bf6ec-dbd4-41a1-83d5-08b119d0d217"
-      (reference "SW2") (unit 1) (value "Alpenglow_SMT_SlideSwitch") (footprint "Alpenglow:SW_SPDT_SMT_RTA")
+      (reference "SW2") (unit 1) (value "Alpenglow_SMT_SlideSwitch") (footprint "Button_Switch_SMD:SW_SPDT_PCM12")
     )
     (path "/acbc2e49-e0c2-4241-8b94-c64de2a5119c"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.5mm")
